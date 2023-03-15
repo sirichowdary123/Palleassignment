@@ -1,0 +1,44 @@
+.build-experience {
+    padding: 80px 30px;
+    background-color: #fff;
+}
+.build-experience__heading {
+    font-size: 40px;
+    margin: 0;
+}
+
+.build-experience__desc {
+    font-size: 14px;
+}
+.build-experience__cards {
+    padding-top: 40px;
+}
+.build-experience__item h4{
+    margin: 0;
+}
+.build-experience__item {
+    margin-bottom: 40px;
+}
+.build-experience__item p {
+    line-height: 1.6;
+}
+
+.build-experience__item button {
+    text-transform: uppercase;
+    height: 40px;
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    font-weight: 600;
+    letter-spacing: -0.8px;
+    border-radius: 3px;
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 992px) {
+    .build-experience__cards {
+        display: flex;
+        gap: 120px;
+    }
+}

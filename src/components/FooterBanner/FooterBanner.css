@@ -1,0 +1,31 @@
+.footer-banner {
+    background-color: #0276d5;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0 30px;
+}
+.footer-banner__row {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.footer-banner__row p {
+    margin: 0;
+    font-size:19px;
+}
+.footer-banner__row button {
+    text-transform: uppercase;
+    min-height: 40px;
+    padding: 10px 15px;
+    background-color: #fff;
+    color: #000;
+    border: 0;
+    font-weight: 600;
+    letter-spacing: -0.8px;
+    border-radius: 3px;
+}

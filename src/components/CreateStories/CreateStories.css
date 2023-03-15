@@ -1,0 +1,33 @@
+.create-stories {
+    background-color: #fff;
+    padding: 80px 30px;
+}
+
+.create-stories__header {
+    margin: 0;
+    font-size: 50px;
+}
+.create-stories__desc {
+    font-size: 10px;
+    line-height: 1.6;
+}
+
+.create-stories__images {
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 992px) {
+    .create-stories {
+        /* padding: 0; */
+    }
+   .create-stories__header {
+        margin: 0;
+        font-size: 40px;
+    }
+    .create-stories__desc{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+}

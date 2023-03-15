@@ -1,0 +1,18 @@
+.image-with-text {
+    width: 100%;
+}
+
+.image-with-text img {
+    width: 100%;
+}
+
+.image-with-text h5 {
+    margin: 10px 0;
+}
+
+@media screen and (min-width: 992px) {
+    .image-with-text {
+        width: calc(50% - 40px);
+    }
+
+}

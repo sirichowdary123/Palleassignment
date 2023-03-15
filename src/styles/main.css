@@ -1,0 +1,27 @@
+
+body {
+  margin: 0;
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+  .pointer {
+    cursor: pointer;
+  }
+
+  .section__divider {
+    width: 35px;
+    border-bottom: 2px solid #ccc;
+    display: inline-block;
+    margin: 40px 0px;
+  }
+  @media screen and (min-width: 1200px) {
+    .container {
+      width: 1000px;
+      margin: 0 auto;
+    }
+  }
